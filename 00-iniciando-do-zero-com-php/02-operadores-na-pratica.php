@@ -33,9 +33,7 @@ var_dump([
     '--$incrementB' => --$incrementB,
 ]);
 
-/**
- * [ comparação ] https://php.net/manual/pt_BR/language.operators.comparison.php
- */
+/** [ comparação ] https://php.net/manual/pt_BR/language.operators.comparison.php */
 _line("comparação", __LINE__);
 
 $relatedA = 5;
@@ -53,9 +51,7 @@ var_dump([
     'a <= b'  => ($relatedA <= $relatedC),
 ]);
 
-/**
- * [ lógicos ] https://php.net/manual/pt_BR/language.operators.logical.php
- */
+/** [ lógicos ] https://php.net/manual/pt_BR/language.operators.logical.php */
 _line("lógicos", __LINE__);
 
 $logicA = true;
@@ -69,9 +65,7 @@ var_dump([
     '! b'    => (!$logicB),
 ]);
 
-/**
- * [ aritiméticos ] https://php.net/manual/pt_BR/language.operators.arithmetic.php
- */
+/** [ aritiméticos ] https://php.net/manual/pt_BR/language.operators.arithmetic.php */
 _line("aritiméticos", __LINE__);
 
 $calcA = 5;
