@@ -2,10 +2,10 @@
 
 require_once dirname(__DIR__) . '/stackphp/stackphp.php';
 
-_title("Comandos de saída");
+_title('Comandos de saída');
 
 /** [ echo ] https://php.net/manual/pt_BR/function.echo.php */
-_line("echo", __LINE__);
+_line('echo', __LINE__);
 
 echo '<p>Olá Mundo!</p>';
 echo '<p>', 'Olá', ' ', 'Mundo!', '</p>';
@@ -24,7 +24,7 @@ echo '<p>' . $hello . ' ' . $world . '</p>';
 <?php
 
 /** https://php.net/manual/pt_BR/function.print.php */
-_line("print", __LINE__);
+_line('print', __LINE__);
 
 print $hello;
 print $world;
@@ -44,7 +44,7 @@ print_r($arr);
 echo '<pre>', print_r($arr, true), '</pre>';
 
 /** https://php.net/manual/pt_BR/function.printf.php */
-_line("printf", __LINE__);
+_line('printf', __LINE__);
 
 $string = '<p>Olá, eu sou um %s, e estou %s</p>';
 
@@ -53,13 +53,13 @@ printf($string, 'estudante', 'aprendendo php');
 echo sprintf($string, 'estudante', 'aprendendo php');
 
 /** https://php.net/manual/pt_BR/function.vprintf.php */
-_line("vprintf", __LINE__);
+_line('vprintf', __LINE__);
 
 vprintf($string, ['estudante', 'aprendendo php']);
 
 echo vsprintf($string, ['estudante', 'aprendendo php']);
 
 /** https://php.net/manual/pt_BR/function.var-dump.php */
-_line("var_dump", __LINE__);
+_line('var_dump', __LINE__);
 
 var_dump($string, $arr);

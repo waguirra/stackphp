@@ -16,7 +16,7 @@ EOL;
 /**
  * Cria o título do arquivo para o browser
  */
-function _title($title)
+function _title(string $title): void
 {
     echo "<title>{$title} | Stack PHP</title>";
 }
@@ -24,7 +24,7 @@ function _title($title)
 /**
  * Cria uma linha de sessão para exemplos
  */
-function _line(string $name, int $line = __LINE__)
+function _line(string $name, int $line = __LINE__): void
 {
     $line = ($line ? " <span class='line-session'>| Linha {$line}</span>" : "");
     $name = ($name ? "[ {$name}{$line} ]" : "");
