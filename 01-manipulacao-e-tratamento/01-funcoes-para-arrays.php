@@ -1,5 +1,7 @@
 <?php
+
 require dirname(__DIR__) . '/stackphp/stackphp.php';
+
 _title('Funções para arrays');
 
 /** [ criação ] https://php.net/manual/pt_BR/ref.array.php */
