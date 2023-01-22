@@ -65,5 +65,9 @@ var_dump(array_keys($assoc), array_values($assoc));
 $string = implode(', ', $assoc);
 
 if (in_array('laranja', $assoc)) {
+<<<<<<< HEAD
     echo "<p>{$string}</p>";
+=======
+    echo '<p>{$string}</p>';
+>>>>>>> c7591fc90eadb111b134a6b5131a9a0f9e18c456
 }
